@@ -17,10 +17,7 @@ function App() {
           <Resume />
         </Outlet>
       </header>
-      <AboutMe />
-      <Projects/>
-      <Contact />
-      <Footer />
+     
     
     </>
   )

@@ -6,6 +6,10 @@ import github from '../assets/github.svg';
 import linkdin from '../assets/linkdin.svg';
 import twitter from '../assets/twitter.svg';
 import youtube from '../assets/youtube.svg';
+import { AboutMe } from './AboutMe';
+import { Projects } from './Projects';
+import { Contact } from './Contact';
+import { Footer } from '../Components/Footer';
 export const HomePage = () => {
   return (
     <>
@@ -43,7 +47,10 @@ export const HomePage = () => {
         <a href="" className='block'><img src={youtube} alt="" /></a>
 
       </div>
-
+      <AboutMe/>
+      <Projects />
+      <Contact />
+      <Footer />
     </>
 
   )

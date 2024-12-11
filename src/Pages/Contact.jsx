@@ -3,7 +3,7 @@ import flower2 from '../assets/flower2.png';
 import flower5 from '../assets/flower5.png';
 export const Contact = () => {
   return (
-    <div className='relative bg_img pb-4 lg:pb-8 overflow-x-hidden px-4'>
+    <div id="contact"  className='relative bg_img pb-4 lg:pb-8 overflow-x-hidden px-4'>
       <div className='pt-4 md:pt-8 max-w-[1140px] mx-auto '>
         <h2 className='text-center pb-3 lg:pb-7'>CONTACT</h2>
         <div className='w-[90px] h-2 bg_secondary rounded-[5px] mx-auto mb-4 lg:mb-12'>

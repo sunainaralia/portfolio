@@ -4,7 +4,7 @@ import flower9 from '../assets/flower9.svg';
 import flower3 from '../assets/flower3.svg';
 export const Projects = () => {
   return (
-    <div className='pt-4 md:pt-8 max-w-[1140px] mx-auto '>
+    <div id='projects' className='pt-4 md:pt-8 max-w-[1140px] mx-auto '>
       <h2 className='text-center pb-3 xl:pb-7'>PROJECTS</h2>
       <div className='w-[90px] h-2 bg_secondary rounded-[5px] mx-auto mb-5 xl:mb-12'>
       </div>
@@ -22,7 +22,6 @@ export const Projects = () => {
       </div>
       <img src={flower3} alt=""  className=' absolute bottom-[-10px] right-0'/>
         <img src={flower9} alt="" className=' absolute bottom-[-30px] left-0 hidden sm:block' />
-
      </div>
     
 

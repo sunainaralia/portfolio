@@ -3,6 +3,10 @@ import { NavBar } from '../Components/NavBar';
 import { Experience } from '../Components/Experience';
 import { Education } from '../Components/Education';
 import { Details } from '../Components/Details';
+import { AboutMe } from './AboutMe';
+import { Projects } from './Projects';
+import { Contact } from './Contact';
+import { Footer } from '../Components/Footer';
 import { Outlet,Link } from 'react-router-dom';
 export const Resume = () => {
   return (
@@ -23,6 +27,10 @@ export const Resume = () => {
         </div>
 
       </div>
+      <AboutMe />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   )
 }

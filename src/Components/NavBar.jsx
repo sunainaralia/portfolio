@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import profile from '../assets/profile.svg';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 export const NavBar = () => {
   const hamburger = useRef(null);
   const menu_color = useState(false)
@@ -35,9 +35,9 @@ export const NavBar = () => {
           <div>
             <ul className={`${show_hide ? 'left-0 bg_secondary flex' : 'left-[-110%]'} ease-in-out lg:flex items-center flex-col lg:flex-row h-[100vh] lg:h-auto absolute lg:static  w-full top-[128px] opacity-1 z-[2] justify-around lg:justify-normal`} ref={menu}>
               <li> <Link to='/' className={`font-medium fs_xxs clr_primary pe-8 ${show_hide ? 'fs_md clr_powder' : 'fs_xxs clr_primary'}`}>HOME</Link></li>
-              <li> <a href='' className='font-medium fs_xxs clr_primary pe-8'>ABOUT</a></li>
-              <li> <a href='' className='font-medium fs_xxs clr_primary pe-8'>PROJECTS</a></li>
-              <li> <a href='' className='font-medium fs_xxs clr_primary pe-8'>CONTACT</a></li>
+              <li> <a href='#about' className='font-medium fs_xxs clr_primary pe-8'>ABOUT</a></li>
+              <li> <a href='#projects' className='font-medium fs_xxs clr_primary pe-8'>PROJECTS</a></li>
+              <li> <a href='#contact' className='font-medium fs_xxs clr_primary pe-8'>CONTACT</a></li>
               <li><Link to='resume/' className='bg_secondary clr_powder rounded-[10px] py-[5px] px-[10px]'>RESUME</Link></li>
             </ul>
           </div>
